@@ -83,12 +83,12 @@ ggplot(penguins, @aes(x = bill_length_mm, y = bill_depth_mm, color = species)) +
         size = 20,
         stroke = 1,
         strokecolor = "black",
-        alpha = 0.2) +
+        alpha = 0.8) +
     labs(x = "Bill Length (mm)", y = "Bill Width (mm)") +
-    lims(x = c(40, 60), y = c(15, 20)) +
-    theme_minimal()
+    theme_light()
 ```
 
 ![Customized scatter plot](figs/customized-scatter.png)
 
-To see more about the `TidierPlots.jl` package, you can visit the [documentation](https://tidierorg.github.io/TidierPlots.jl/latest/).
+!!! tip
+    To explore more the `TidierPlots.jl` package, you can visit its [documentation](https://tidierorg.github.io/TidierPlots.jl/latest/)

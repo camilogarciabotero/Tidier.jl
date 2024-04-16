@@ -202,3 +202,7 @@ julia> @chain ofp begin
 ─────┼──────────
    1 │  74.0241
 ```
+
+
+!!! tip
+    To explore more the `TidierData.jl` package, you can visit its [documentation](https://tidierorg.github.io/TidierData.jl/latest/)
