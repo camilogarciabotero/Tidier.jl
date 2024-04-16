@@ -38,7 +38,9 @@ export default defineConfig({
     sidebar: 'REPLACE_ME_DOCUMENTER_VITEPRESS',
     editLink: 'REPLACE_ME_DOCUMENTER_VITEPRESS',
     socialLinks: [
-      { icon: 'github', link: 'REPLACE_ME_DOCUMENTER_VITEPRESS' }
+      { icon: 'github', link: 'REPLACE_ME_DOCUMENTER_VITEPRESS' },
+      { icon: 'slack', link: 'https://julialang.slack.com/ssb/redirect' },
+      // { icon: 'discourse', link: 'https://discourse.julialang.org/tags/c/domain/data/' }
     ],
     footer: {
       message: 'Made with <a href="https://luxdl.github.io/DocumenterVitepress.jl/dev/" target="_blank"><strong>DocumenterVitepress.jl</strong></a><br>',
